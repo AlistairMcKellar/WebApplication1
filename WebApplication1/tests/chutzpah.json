@@ -1,0 +1,8 @@
+﻿{
+  "InheritFromParent": true,
+  "References": [
+    {
+      "Path": "config.js"
+    }
+  ]
+}

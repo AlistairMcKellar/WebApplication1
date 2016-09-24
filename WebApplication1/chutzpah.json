@@ -1,0 +1,16 @@
+﻿{
+  "TestHarnessLocationMode": "SettingsFileAdjacent",
+  "Framework": "jasmine",
+  "TestHarnessReferenceMode": "AMD",
+  "References": [
+    {
+      "Path": "./Scripts/require.js"
+    }
+  ],
+  "Tests": [
+    {
+      "Includes": [ "*.js" ],
+      "Excludes": [ "*Scripts*" ]
+    }
+  ]
+}
