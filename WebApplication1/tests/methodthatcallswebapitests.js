@@ -10,10 +10,7 @@
         it("computed value is corrected", function () {
             var testingLocal = new testing();
             expect(webApiMethods.get).toHaveBeenCalled();
-            var unwrappedSomeValue = testingLocal.someValue();
-            var unrappedActualValue = testingLocal.someValueWithValue();
-            var unwrappedTestingValue = testingLocal.testedValue();
-            expect(testingLocal.testedValue()).toEqual("thisvalue was found");
+            expect(testingLocal.testedValue()).toEqual("thisValue Transaction Summary");
         });
     });
 });
